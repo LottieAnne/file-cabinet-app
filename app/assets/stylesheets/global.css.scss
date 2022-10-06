@@ -39,7 +39,7 @@ body {
 button, .button {
 	border: none;
 	outline: none;
-	background: $green;
+	background: green;
 	padding: 1rem 3.5rem;
 	border-radius: 0.1rem;
 	a {
@@ -55,10 +55,10 @@ button, .button {
 }
 
 a {
-	color: $green;
+	color: green;
 	text-decoration: none;
 	&:hover {
-		color: $dark_gray;
+		color: darkgray;
 	}
 }
 
@@ -117,7 +117,7 @@ footer {
 input[type="text"], input[type="email"], input[type="password"], textarea {
 	width: 100%;
 	margin-bottom: 1rem;
-	border: 1px solid $light_gray;
+	border: 1px solid lightgray;
 	border-radius: .4rem;
 }
 
